@@ -1,0 +1,105 @@
+body{
+
+  font-family: 'Poppins', sans-serif;
+
+
+  max-width:100%;
+  margin:0px;
+  
+  background-color: rgba(195, 224, 225, 0.359);
+}
+
+/*  Navigation */
+
+nav{
+  background-color: rgb(61, 208, 140);
+  border-radius:.3rem ;
+  /* margin-top: 0px; */
+  padding:5px;
+}
+.nav-ul{
+  list-style:none ;
+  text-align: center;
+ 
+}
+.nav-ul-li{
+  display: inline;
+  padding: 0rem 1rem;
+  
+  
+} 
+
+.active{
+  font-weight: bold;
+}
+
+nav{
+  padding-left:1rem
+}
+
+
+.nav-li-item{
+  text-decoration: none;
+  color:aliceblue;
+ 
+  
+}
+
+/*  container  */
+
+.container{
+  width:75%;
+  margin:auto;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  padding: 0.5rem;
+  margin:1rem;
+  border-radius: 1rem;
+}
+
+.live{
+  background-color: rgb(221, 228, 226);
+ 
+  
+}
+
+.source{
+  background-color: rgb(224, 235, 235);
+  
+}
+
+.project{
+  background-color: rgb(245, 251, 251);
+  margin:1rem;
+  padding-top:0.2rem;
+  padding-bottom:1.2rem;
+  padding-left: 1.3rem;
+  border-radius: 1rem;;
+}
+
+
+/* footer  */
+
+footer{
+  background-color: rgb(104, 125, 104);
+  text-align: center;
+  padding:1rem;
+  border-radius:.3rem
+ 
+ }
+ .footer-ul{
+ list-style: none;
+ 
+ 
+ }
+ .footer-li{
+   display:inline;
+   padding: 0rem 2rem;
+   
+ }
+ .footer-anchor{
+   text-decoration: none;
+ }

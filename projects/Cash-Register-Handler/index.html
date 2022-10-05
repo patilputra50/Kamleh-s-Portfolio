@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+</head>
+<body>
+  <div>
+  <h1>Cash  Register Handler</h1>
+  <h3>Enter the bill amount and cash given by the customer and know minimum number of notes to be returned.</h3>
+  <label for="bill">Bill Amount:</label>
+  <input type="number" id="bill" placeholder="enter bill amount" >
+<br> <br>
+  <label for="cash">Cash Given: </label>
+  <input type="number" id="cash" placeholder="enter cash amount">
+  <br><br>
+  <button type="button">Check</button>
+  <br><br>
+
+  <h2>Return Change</h2>
+
+  <table id="table">
+    <tr>
+      <th>No. of Notes</th>
+      <td id="twoTh"></td>
+      <td id="fiveH"></td>
+      <td id="oneh"></td>
+      <td id="twenty"></td>
+      <td id="ten"></td>
+      <td id="five"></td>
+      <td id="one"></td>
+    </tr>
+    
+    <tr>
+      <th> Notes</th>
+      <td>2000</td>
+      <td>500</td>
+      <td>100</td>
+      <td>20</td>
+      <td>10</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+  </table>
+</div>
+
+<!-- <script>
+  document.querySelector("#fiveH").innerHTML="Hello 500"
+</script> -->
+
+<script src="index.js"></script>
+  
+</body>
+</html>

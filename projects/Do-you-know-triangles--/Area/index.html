@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area</title>
+
+  <link rel="stylesheet" href="index.css"/>
+<style>
+ table,td,th {
+     
+     border:1px solid rgba(52, 127, 194, 0.732);
+   }
+</style>
+
+</head>
+<body>
+
+   <!-- Navigation -->
+<nav class="nav">
+  <div>
+    <h2 id="fun">Fun with triangle</h2>
+</div>
+
+  <ul class="nav-ul">
+    <li class="nav-ul-li ">
+      <a class="nav-li-item" id="home" href="/projects/Do-you-know-triangles--/index.html" >Is triangle</a>
+      </li>
+      <li class="nav-ul-li  ">
+        <a class="nav-li-item" id="project" href="/projects/Do-you-know-triangles--/Hypotenus/index.html">Hypotenus</a>
+      </li>
+      <li class="nav-ul-li active">
+        <a class="nav-li-item" id="blog" href="/projects/Do-you-know-triangles--/Area/index.html">Area</a>
+      </li>
+      <li class="nav-ul-li"
+      id="about" >
+        <a class="nav-li-item"  href="/projects/Do-you-know-triangles--/Quiz/index.html">Quiz</a>
+      </li>
+  </ul>
+</nav>
+
+<div class="main">
+  
+<h1>Find Area of Triangle</h1>
+<br>
+<div id="res"></div>
+<br>
+<h3>Enter triangle side lengths</h3>
+
+<table>
+  <tr>
+    <th>First Side</th>
+    <th>Second Side</th>
+    <th>Third Side</th>
+  </tr>
+  <tr>
+    <td>
+      <input type="number" id="first" placeholder="enter side length">
+    </td>
+    <td><input type="number" id="second" placeholder="enter side length"></td>
+    <td><input type="number" id="third" placeholder="enter side length"></td>
+  </tr>
+</table>
+<br>
+<input type="button" value="Get Area" id="area">
+</div>
+
+  <script src="index.js"></script>
+</body>
+</html>

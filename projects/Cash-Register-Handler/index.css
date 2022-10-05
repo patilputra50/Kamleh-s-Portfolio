@@ -1,0 +1,30 @@
+
+body{
+  align-items: center;
+  background-color:lightgray
+}
+
+div{
+  text-align: center;
+
+}
+
+table{
+  margin:auto;
+  width:60%;
+  
+  background-color: white
+}
+
+tablr,tr{
+}
+
+h1,h2{
+color:green;
+}
+button,label{
+  font-weight: bold;
+}
+h3{
+  color:rgb(76, 107, 91)
+}

@@ -1,0 +1,56 @@
+
+body{
+  
+}
+
+.container{
+  text-align: center;
+}
+
+h1{
+  color:blueviolet
+}
+
+.pad{
+  background-color: rgb(240, 235, 235);
+  border-radius: 0.6rem;
+  padding:2rem;
+
+  margin:auto
+ 
+
+}
+
+.content{
+  width:400px
+  
+}
+
+#check{
+  margin-right:1rem;
+  font-size: 1.rem;
+  font-weight: bold;
+}
+
+label{
+  font-weight:bold;
+  
+}
+
+input{
+  
+  margin-left:2rem
+}
+.pd{
+  padding:0.5rem
+}
+
+
+#span{
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background-color: rgb(240, 235, 235);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:rgba(8, 53, 232, 0.989)
+}

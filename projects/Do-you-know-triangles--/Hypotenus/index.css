@@ -1,0 +1,104 @@
+
+
+body{
+  margin:0px;
+
+
+}
+
+
+
+/*  Navigation */
+
+nav{
+  background-color: rgb(61, 208, 140);
+  border-radius:.3rem ;
+  /* margin-top: 0px; */
+  padding:5px;
+}
+.nav-ul{
+  list-style:none ;
+  text-align: center;
+ 
+}
+.nav-ul-li{
+  display: inline;
+  padding-top:1rem;
+  padding-left:1rem
+} 
+
+.active{
+  font-weight: bold;
+}
+
+#fun{
+  margin-left: 2rem;
+}
+
+
+
+.nav-li-item{
+  text-decoration: none;
+  color:rgb(234, 240, 244);
+ 
+  
+}
+
+
+/* header  */
+
+.main{
+  text-align: center;
+}
+
+
+/* table  */
+
+
+table{
+  margin:auto
+}
+
+div{
+ 
+  padding:0.7rem
+
+}
+
+#hypotenus{
+
+  
+  background-color:lightgrey;
+  border-radius: 4px;
+  width:50%
+  
+ 
+}
+
+h1{
+  color:blueviolet
+}
+
+h3{
+  color:rgb(48, 163, 240)
+}
+
+.res{
+  margin:auto
+  
+}
+
+tr{
+  padding:2rem
+}
+
+#calc{
+  font-weight: bold;
+  margin-right:0.8rem
+}
+
+#clear{
+  font-weight: bold;
+  margin-left:0.8rem
+}
+

@@ -1,0 +1,26 @@
+
+.vanila{
+  text-align: center;
+}
+
+#talk{
+  text-decoration:underline;
+  color:blue
+}
+#textarea-input,#textarea-output{
+  display:block;
+  width:60%;
+  height:20vh;
+  margin:auto;
+  padding:1rem 0rem;
+  border-radius: 0.5rem;
+}
+
+button{
+  margin:1.3rem;
+}
+
+textarea,placeholder{
+  text-align: center;
+  background-color: lightgray;
+}

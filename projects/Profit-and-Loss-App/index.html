@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="index.css"/>
+
+  <style>
+    table, th, td {
+      border:1px solid rgba(52, 127, 194, 0.732);
+    }
+    </style>
+</head>
+<body>
+  
+<h1>Profit and Loss Calculator</h1>
+<br>
+
+<div class="res" id="res"></div>
+
+<h3> Enter required Stock Parameters</h3>
+<br>
+
+<table>
+  <tr>
+    <th>Initial Price</th>
+    <th>Current Price</th>
+    <th>Amount of Stock</th>
+  </tr>
+
+  <tr>
+    <td><input class="input" id="initial"type="number"></td>
+    <td><input class="input" type="number" id="current"></td>
+    <td><input class="input" type="number" id="amount"></td>
+  </tr>
+</table>
+<br>
+
+<input type="button" value="Calculate" id="calc">
+
+
+  <script src="index.js"></script>
+</body>
+</html>

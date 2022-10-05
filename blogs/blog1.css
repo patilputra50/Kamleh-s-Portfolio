@@ -1,0 +1,19 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(233, 241, 241);
+
+}
+
+
+.container{
+  width:60%;
+margin:auto;
+
+}
+
+
+
+ #thank{
+text-align:center;
+}

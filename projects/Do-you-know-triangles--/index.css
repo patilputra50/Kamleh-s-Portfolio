@@ -1,0 +1,55 @@
+
+body{
+  margin:0px;
+
+
+}
+
+
+
+/*  Navigation */
+
+nav{
+  background-color: rgb(61, 208, 140);
+  border-radius:.3rem ;
+  /* margin-top: 0px; */
+  padding:5px;
+}
+.nav-ul{
+  list-style:none ;
+  text-align: center;
+ 
+}
+.nav-ul-li{
+  display: inline;
+  padding-top:1rem;
+  padding-left:1rem
+} 
+
+.active{
+  font-weight: bold;
+}
+
+#fun{
+  margin: 2rem;
+}
+
+
+
+.nav-li-item{
+  text-decoration: none;
+  color:rgb(234, 240, 244);
+ 
+  
+}
+
+
+/* <!-- table  --> */
+
+.container{
+  text-align: center;
+}
+
+table{
+  margin:auto;
+}
