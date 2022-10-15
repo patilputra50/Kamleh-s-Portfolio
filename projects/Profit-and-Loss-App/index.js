@@ -47,7 +47,7 @@ if(diff>0)
 else if(diff<0)
 {
   let loss=diff*stockamount*-1
-  let lossPercentage=-(loss/(stockamount*initialprice))*100*-1
+  let lossPercentage=(loss/(stockamount*initialprice))*100*-1
 
   document.querySelector(".res").innerHTML="Loss is of "+loss+" and loss percentage is "+lossPercentage.toFixed(2)+"%"
 }
