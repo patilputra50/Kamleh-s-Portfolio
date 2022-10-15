@@ -4,15 +4,17 @@
 let billInput=document.querySelector("#bill")
 let cashInput=document.querySelector("#cash")
 
-let billvalue
-let cashvalue
+let billvalue= -1
+let cashvalue= -1
 
 billInput.addEventListener('input',function bill(){
   billvalue=billInput.value
+  billvalue=Number(billvalue)
 })
 
 cashInput.addEventListener('input',function cash(){
   cashvalue=cashInput.value
+  cashvalue=Number(cashvalue)
 })
 
 // check
@@ -21,21 +23,32 @@ let check=document.querySelector("button")
 
 check.addEventListener("click", function change(){
 
+// reset
+document.querySelector("#twoTh").innerHTML=0
+document.querySelector("#fiveH").innerHTML=0
+document.querySelector("#oneh").innerHTML=0
+document.querySelector("#twenty").innerHTML=0
+document.querySelector("#one").innerHTML=0
+document.querySelector("#ten").innerHTML=0
+document.querySelector("#five").innerHTML=0
+
+//document.querySelectorAll(".reset").innerHTML=0
+
+if(cashvalue<0 || billvalue<0 || cashvalue<billvalue)
+{
+  alert("Please enter positive and valid values")
+  return
+}
+
+// user message
+
+document.querySelector("#message").textContent="Minimum number of notes in returnable amount"
+
+// logic part
+
 if(cashvalue >= billvalue)
 {
   let give= (Number(cashvalue)-Number(billvalue))
-
-  console.log("re "+give)
-
-  // let mod1=(((give % 2000) + 2000) % 2000)
-  // let mod2=(((give % 500) + 500) % 500)
-  // let mod3=(((give % 100) + 100) % 100)
-  // let mod4=(((give % 20) + 20) % 20)
-  // let mod5=(((give % 10) + 10) % 10)
-  // let mod6=(((give % 5) + 5) % 5)
-  // let mod7=(((give % 1) + 1) % 1)
-
-
   
 // 2000 exchange  
 
