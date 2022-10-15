@@ -9,6 +9,10 @@ div{
 
 }
 
+#message{
+  color:rgb(77, 36, 212);
+}
+
 table{
   margin:auto;
   width:60%;
