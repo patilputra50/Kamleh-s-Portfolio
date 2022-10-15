@@ -19,7 +19,7 @@ current.addEventListener("input", function curprice(){
 })
 
 amount.addEventListener("input", function amountno(){
-  stockamount=Number(amount.value)
+  stockamount=amount.value
 })
 
 let calc=document.querySelector("#calc")
@@ -38,16 +38,16 @@ let diff=currentprice-initialprice
 
 if(diff>0)
 {
-  let profit=Number(diff*stockamount)
-  let profitPercentage=(profit/Number((stockamount*initialprice)))*100
+  let profit=diff*stockamount
+  let profitPercentage=(profit/(stockamount*initialprice))*100
 
   document.querySelector(".res").innerHTML="Profit is "+profit.toFixed(2)+" and profit percentage is "+profitPercentage.toFixed(2)+"%"
 }
 
 else if(diff<0)
 {
-  let loss=Number(diff*stockamount)
-  let lossPercentage=(loss/Number((stockamount*initialprice)))*100
+  let loss=diff*stockamount
+  let lossPercentage=(loss/(stockamount*initialprice))*100
 
   document.querySelector(".res").innerHTML="Loss is of "+loss+" and loss percentage is "+lossPercentage.toFixed(2)+"%"
 }
