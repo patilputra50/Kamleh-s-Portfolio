@@ -82,7 +82,7 @@ if(cashvalue >= billvalue)
 
   if((mod3) > 0)
   {
-    document.querySelector("#oneH").innerHTML=mod3
+    document.querySelector("#oneh").innerHTML=mod3
     give= give- (100*mod3)
   }
 
