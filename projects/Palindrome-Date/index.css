@@ -8,15 +8,16 @@ body{
 }
 
 
-.otp{
+#result{
  
-  width:60%
- 
+  width:90%;
+
+ padding:0.5rem 0rem;
  
   
 }
 
-#output{
+.output{
  
   color:blue;
   background-color: lightgray;
