@@ -19,7 +19,7 @@ current.addEventListener("input", function curprice(){
 })
 
 amount.addEventListener("input", function amountno(){
-  stockamount=Number(amountno.value)
+  stockamount=Number(amount.value)
 })
 
 let calc=document.querySelector("#calc")
