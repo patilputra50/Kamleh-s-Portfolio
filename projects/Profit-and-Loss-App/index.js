@@ -38,16 +38,16 @@ let diff=currentprice-initialprice
 
 if(diff>0)
 {
-  let profit=diff
-  let profitPercentage=(profit/initialprice)*100
+  let profit=diff*stockamount
+  let profitPercentage=(profit/(stockamount*initialprice))*100
 
   document.querySelector(".res").innerHTML="Profit is "+profit.toFixed(2)+" and profit percentage is "+profitPercentage.toFixed(2)+"%"
 }
 
 else if(diff<0)
 {
-  let loss=-diff
-  let lossPercentage=(loss/initialprice)*100
+  let loss=-diff*stockamount
+  let lossPercentage=(loss/(stockamount*initialprice))*100
 
   document.querySelector(".res").innerHTML="Loss is of "+loss+" and loss percentage is "+lossPercentage.toFixed(2)+"%"
 }
