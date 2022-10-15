@@ -1,6 +1,6 @@
 
 
-  let url="https://api.funtranslations.com/translate/minion.json?"
+  let url="https://api.funtranslations.com/translate/minion.json"
 
 
   let translate=document.querySelector("#translate")
